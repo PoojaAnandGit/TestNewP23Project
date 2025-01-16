@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit
   gitUsername: PoojaAnandGit
   gitBranch: main
+services:
+- serviceName: project.testnewp23.integrations:e2
+  packages:
+  - name: TestNewP23Project
+    version: "1.0"
